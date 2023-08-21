@@ -20,3 +20,8 @@
     display: flex;
     gap: 2.5rem;
 }
+
+.hamburger-button {
+    background-color: transparent;
+    border: none;
+}

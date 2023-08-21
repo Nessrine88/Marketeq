@@ -1,0 +1,27 @@
+.diversity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diversityImgs {
+  display: flex;
+  justify-content: center;
+}
+
+.diversityImgs img {
+  width: 80%;
+  height: 80%;
+}
+
+.diversityImgs p {
+  width: 80%;
+}
+
+h4 {
+  width: 70%;
+}
+
+.authors {
+  margin-top: 100px;
+}

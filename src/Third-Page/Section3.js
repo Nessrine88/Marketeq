@@ -7,6 +7,7 @@ import Section3Img6 from '../assets/Section3Img6.jpg';
 import Section3Img7 from '../assets/Section3Img7.jpg';
 import Section3Img8 from '../assets/Section3Img8.jpg';
 import Section3Img9 from '../assets/Section3Img9.jpg';
+import './styling/Section3.css';
 
 const Section3 = () => (
   <section className="section3">
@@ -38,14 +39,15 @@ const Section3 = () => (
         </p>
       </div>
 
-      <div className="part3" />
-      <img src={Section3Img3} alt="diversity" />
+      <div className="part3">
+        <img src={Section3Img3} alt="diversity" />
 
-      <h4>Why automotive OEMs need to adapt</h4>
-      <p>
-        As technology continues to expand what’s possible,
-        the original automotive franchise model has remained largely unchanged.
-      </p>
+        <h4>Why automotive OEMs need to adapt</h4>
+        <p>
+          As technology continues to expand what’s possible,
+          the original automotive franchise model has remained largely unchanged.
+        </p>
+      </div>
     </div>
     <div className="authors">
       <h3>We are the authors of our story</h3>

@@ -1,13 +1,12 @@
 import tableBook from '../assets/tabler_book.svg';
-import Arrow2 from '../assets/Arrow2.svg';
 import ourValuesImg from '../assets/ourValuesImg.jpg';
 import './styling/MiddleSection.css';
 
 const MiddleSection = () => (
   <section className="middle-Section">
     <div className="OurValues">
-      <h2>Our Values</h2>
-      <p>
+      <h2 className="ValuesHeader">Our Values</h2>
+      <p className="ValuesPara">
         Our Values form the bedrock of our culture and define how we work
         together to serve out stakeholders
       </p>
@@ -71,19 +70,6 @@ const MiddleSection = () => (
           Ex expedita quis ad incidunt unde at
           dicta corrupti numquam.
         </p>
-        <div className="CEO">
-          <h4>Lorem ipsum dolor sit</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus dolor
-            libero sequi dicta quos praesentium reiciendis doloribus modi quis,
-            minima rerum incidunt suscipit esse non commodi? Earum culpa similique suscipit!
-          </p>
-          <h4>Christopher Torrest</h4>
-          <p>Global Chairman & CEO</p>
-
-        </div>
-        <button type="button">Read the full story</button>
-        <img src={Arrow2} alt="arrow" />
       </div>
     </div>
     <div className="ourValuesImg">

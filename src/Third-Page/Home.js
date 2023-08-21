@@ -11,7 +11,7 @@ import Person2 from '../assets/Person2.jpg';
 import Person3 from '../assets/Person3.jpg';
 import ArrowDown from '../assets/ArrowDown.svg';
 import './styling/Home.css';
-import search from '../assets/hamburger.svg';
+import search from '../assets/search.svg';
 import ProfileIcon from '../assets/ProfileIcon.png';
 import ArrowDownWhite from '../assets/ArrowDownWhite.svg';
 
@@ -20,42 +20,47 @@ const Home = () => (
     <header>
       <Navbar />
       <nav className="navbar">
-        <div className="navbar-logo">
-          <img src={logo} alt="Logo" />
-          <span>Marketeq</span>
-        </div>
-        <ul className="navbar-links">
-          <li><a href="./">Home</a></li>
-          <li><a href="./">About</a></li>
-          <li><a href="./">Services</a></li>
-          <li><a href="./">Contact</a></li>
-        </ul>
-        <div className="navLeft">
-          <ul>
-            <li>
-              {' '}
-              <img src={search} alt="search icon" />
-              Search
-              {' '}
-            </li>
-            <li>
-              <img src={ProfileIcon} alt="profile" />
-              Login
-            </li>
-            <li>
-              <img src={globe} alt="globe" />
-              Global/English
-              <img src={ArrowDownWhite} alt="arrow down" />
-            </li>
-          </ul>
+        <div className="navContainer">
+          <div className="leftNav">
+            <div className="navbar-logo">
+              <img src={logo} alt="Logo" />
+              <span>Marketeq</span>
+            </div>
+
+            <ul className="navbar-links">
+              <li><a href="./">Home</a></li>
+              <li><a href="./">About</a></li>
+              <li><a href="./">Services</a></li>
+              <li><a href="./">Contact</a></li>
+            </ul>
+          </div>
+          <div className="rightNav">
+            <ul>
+              <li>
+                {' '}
+                <img src={search} alt="search icon" />
+                Search
+                {' '}
+              </li>
+              <li>
+                <img src={ProfileIcon} alt="profile" />
+                Login
+              </li>
+              <li>
+                <img src={globe} alt="globe" />
+                Global &nbsp;/ &nbsp;English
+                <img src={ArrowDownWhite} alt="arrow down" />
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
     <div className="Home-div1">
       <div className="Home-div1-part1">
-        <p>
+        <p className="whoPara">
           <a href="./">Home</a>
-          / Who We Are
+          &nbsp; &nbsp;/ &nbsp;Who We Are
         </p>
       </div>
       <div className="Home-div1-part2">
@@ -83,6 +88,10 @@ const Home = () => (
             Commodi quod aliquam magni alias aut! Voluptas,
             incidunt id doloribus consectetur earum repellat? Iure,
             rem quis minima laborum sit omnis ea eius?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Commodi quod aliquam magni alias aut! Voluptas,
+            incidunt id doloribus consectetur earum repellat? Iure,
+            rem quis minima laborum sit omnis ea eius?
           </p>
         </div>
         <div className="rightPart1">
@@ -97,6 +106,11 @@ const Home = () => (
         <div className="rightPart1">
           <h3>Lorem ipsum dolor sit amet</h3>
           <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Commodi quod aliquam magni alias aut!
+            Voluptas,
+            incidunt id doloribus consectetur earum repellat? Iure,
+            rem quis minima laborum sit omnis ea eius?
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Commodi quod aliquam magni alias aut!
             Voluptas,
@@ -122,11 +136,11 @@ const Home = () => (
 
         <img id="PerImg1" src={Person1} alt="person" />
         <div className="person2">
-          <img className="PerImg2" src={Person2} alt="person" />
+          <img id="PerImg2" src={Person2} alt="person" />
         </div>
 
         <div className="person3">
-          <img className="PerImg" src={Person3} alt="person" />
+          <img id="PerImg" src={Person3} alt="person" />
         </div>
 
       </div>

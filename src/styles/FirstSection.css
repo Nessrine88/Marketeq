@@ -1,0 +1,14 @@
+.FirstContainer {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #0E204C;
+    gap: 1rem;
+    padding: 15rem 1rem 3rem 1rem;
+}
+
+.readmore {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+}

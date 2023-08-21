@@ -1,0 +1,46 @@
+footer {
+    color: #fff;
+    background-color: #0E204C;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.MiddleContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.firstList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.SecondList {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.lastContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.LastList {
+    display: flex;
+    gap: 3rem;
+}

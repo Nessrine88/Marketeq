@@ -6,7 +6,7 @@ const FirstSection = () => (
   <div className="FirstContainer">
     <span>Artificial Intelligence</span>
     <h1>
-      What's Behind Tesla's Latest
+      What&apos;s Behind Tesla&rsquo;s Latest
       Self-Driving Vechile Updates
     </h1>
     <span className="readmore">

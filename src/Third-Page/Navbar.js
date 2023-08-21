@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/logo.svg';
 import search from '../assets/search.svg';
 import hamburger from '../assets/hamburger.svg';
-import '../styles/Navbar.css';
+import './styling/Navbar.css';
 
 const Navbar = () => (
   <nav className="NavbarContainer">

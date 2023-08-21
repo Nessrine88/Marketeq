@@ -1,9 +1,9 @@
 import './App.css';
-import FirstVersion from './First-Page/FirstVersion';
+import Version1 from './Third-Page/Version1-Page3';
 
 function App() {
   return (
-    <FirstVersion />
+    <Version1 />
   );
 }
 

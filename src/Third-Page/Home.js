@@ -1,4 +1,4 @@
-import Navbar from '../First-Page/Navbar';
+import Navbar from './Navbar';
 import logo from '../assets/logo.svg';
 import BookCall from '../assets/BookCall.svg';
 import Contact from '../assets/Contact.svg';

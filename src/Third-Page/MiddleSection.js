@@ -1,5 +1,7 @@
 import tableBook from '../assets/tabler_book.svg';
 import Arrow2 from '../assets/Arrow2.svg';
+import ourValuesImg from '../assets/ourValuesImg.jpg';
+import './styling/MiddleSection.css'
 
 const MiddleSection = () => (
   <section className="middle-Section">
@@ -10,6 +12,7 @@ const MiddleSection = () => (
         together to serve out stakeholders
       </p>
     </div>
+    <div className="flexContainer">
     <div className="value1">
       <img src={tableBook} alt="tabler Book" />
       <h3>Start with a point of view</h3>
@@ -77,10 +80,14 @@ const MiddleSection = () => (
         </p>
         <h4>Christopher Torrest</h4>
         <p>Global Chairman & CEO</p>
-        <button>Read the full story</button>
+      
+      </div>
+      <button type="button">Read the full story</button>
         <img src={Arrow2} alt="arrow image" />
       </div>
-
+    </div>
+    <div className="ourValuesImg">
+      <img src={ourValuesImg} alt="our values" />
     </div>
 
   </section>

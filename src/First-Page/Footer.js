@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg';
 
 const Footer = () => (
   <footer>
-    <div className="firstContainer">
+    {/* <div className="firstContainer">
       <span>888.456.5609</span>
       <label htmlFor="cars">Global / English</label>
       <select name="cars" id="cars">
@@ -13,7 +13,7 @@ const Footer = () => (
         <option>english</option>
         <option>English</option>
       </select>
-    </div>
+    </div> */}
     <hr />
     <div className="MiddleContainer">
       <ul className="firstList">
@@ -25,18 +25,18 @@ const Footer = () => (
           <p>Marketeq specializes in digital growth strategy and conversion focused web design.</p>
         </li>
         <li>
-          <a href="">
-            <img src="" alt="" />
+          {/* <a href="./">
+            <img src="./" alt="image" />
           </a>
-          <a href="">
-            <img src="" alt="" />
+          <a href="./">
+            <img src="./" alt="image" />
           </a>
-          <a href="">
-            <img src="" alt="" />
+          <a href="./">
+            <img src="./" alt="image" />
           </a>
-          <a href="">
-            <img src="" alt="" />
-          </a>
+          <a href="./">
+            <img src="./" alt="image" />
+          </a> */}
         </li>
       </ul>
       <ul className="SecondList">
@@ -62,15 +62,22 @@ const Footer = () => (
       <span>© 2022 Marketeq. All Rights Reserved.</span>
       <p>
         Eget tortor, commodo massa faucibus cursus. Mi orci neque, lectus sagittis.
-        Phasellus nec viverra facilisis nam senectus. Aenean pulvinar quis magnis magna praesent mattis tempor.
+        Phasellus nec viverra facilisis nam senectus. Aenean pulvinar quis magnis magna
+        praesent mattis tempor.
         At eu, eu volutpat neque. Urna risus, sed habitant commodo imperdiet nulla nec.
         Vitae malesuada mi sed vitae mattis ultrices scelerisque eu ut. Eget vel vitae diam quis.
-        In sed justo dolor in sagittis. Egestas mattis id in neque, porttitor. Sem mauris sed eu ornare nibh.
-        Pretium augue enim euismod eget amet, blandit lorem molestie neque. Eget tortor, commodo massa faucibus cursus.
-        Mi orci neque, lectus sagittis. Phasellus nec viverra facilisis nam senectus. Aenean pulvinar quis magnis magna praesent mattis tempor.
-        At eu, eu volutpat neque. Urna risus, sed habitant commodo imperdiet nulla nec. Vitae malesuada mi sed vitae mattis ultrices scelerisque eu ut.
-        Eget vel vitae diam quis. In sed justo dolor in sagittis. Egestas mattis id in neque, porttitor.
-        Sem mauris sed eu ornare nibh. Pretium augue enim euismod eget amet, blandit lorem molestie neque.
+        In sed justo dolor in sagittis. Egestas mattis id in neque, porttitor.
+        Sem mauris sed eu ornare nibh.
+        Pretium augue enim euismod eget amet, blandit lorem molestie neque. Eget tortor,
+        commodo massa faucibus cursus.
+        Mi orci neque, lectus sagittis. Phasellus nec viverra facilisis nam senectus.
+        Aenean pulvinar quis magnis magna praesent mattis tempor.
+        At eu, eu volutpat neque. Urna risus, sed habitant commodo imperdiet nulla nec.
+        Vitae malesuada mi sed vitae mattis ultrices scelerisque eu ut.
+        Eget vel vitae diam quis. In sed justo dolor in sagittis.
+        Egestas mattis id in neque, porttitor.
+        Sem mauris sed eu ornare nibh. Pretium augue enim euismod eget amet,
+        blandit lorem molestie neque.
       </p>
       <div className="LastList">
         <span>Terms of Use</span>

@@ -13,11 +13,11 @@
 }
 
 .Home-div1-part1 {
-  padding: 20px 20px 0 20px;
+  padding: 40px 20px 0 40px;
 }
 
 .Home-div1-part2 {
-  padding: 300px 0 0 20px;
+  padding: 350px 0 0 40px;
 }
 
 h1 {
@@ -45,7 +45,7 @@ h1 {
 
 .Our-Story {
   background-color: rgba(61, 65, 96, 0.03);
-  padding-top: 20px;
+
 }
 
 .Our-Story h2 {
@@ -55,7 +55,7 @@ h1 {
   font-style: normal;
   font-weight: 600;
   line-height: 120.7%;
-  margin: 0 20px 20px 20px;
+
 }
 
 .Our-Story img {
@@ -85,10 +85,11 @@ h1 {
 }
 
 .readButton {
-  margin: 30px 0 20px 20px;
+  margin: 30px 0 30px 20px;
   padding-bottom: 40px;
   border: none;
   background-color: transparent;
+  margin-left: 150px;
 }
 
 .readButton img {
@@ -123,3 +124,150 @@ h1 {
   width: 90%;
   margin-bottom: 30px;
 }
+
+.NavbarContainer {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #0E204C;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.navbar-logo span{
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  font-size: 1.2rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navLeft {
+margin-left: 25%;
+display: flex;
+}
+
+.navLeft ul {
+float: right;
+  background-color: #0E204C;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.navLeft img {
+  width: 14px;
+  height: 16px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.navLeft {
+  font-size: 1.2rem;
+}
+
+.part1Story {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftPart1 {
+  width: 70%;
+  margin-top: 150px;
+}
+
+.leftPart1 img {
+  width: 80%;
+
+}
+.rightPart1 {
+  width: 70%;
+  padding-top: 20px;
+}
+.rightPart1 img {
+  width: 80%;
+  margin-left: 100px;
+}
+.Our-People img {
+width: 100%;
+margin-right: 20px;
+}
+
+.person1 {
+  margin-left: 40px;
+  width: 70%;
+ 
+}
+.person1 img {
+ width: 30px;
+ position: relative;
+ top: 700px;
+
+}
+
+.person1 span, h2 {
+
+  position: relative;
+  
+  margin: 30px;
+}
+.person1 span {
+  font-family: 'Noto Sans',sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 40px;
+  text-align: justify;
+  top: 700px;
+}
+
+#PerImg1 {
+  width: 30%;
+}
+.personImgs {
+  display: flex;
+}
+@media (max-width: 768px) {
+ .NavbarContainer {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ .SearchAndHamburger {
+    margin-left: 140%;
+  }
+  .navbar {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .SearchAndHamburger {
+    margin-left: 230%;
+  }
+  .navbar {
+    display: none;
+  }
+}
+

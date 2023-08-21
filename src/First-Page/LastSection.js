@@ -9,7 +9,8 @@ const LastSection = () => (
       <img src={card1} alt="" />
       <h3>Why wavering customer confidence could stall</h3>
       <p>
-        The Energy Consumer Confidence Index reveals that the impact of the energy transition is hitting home.
+        The Energy Consumer Confidence Index reveals that
+        the impact of the energy transition is hitting home.
         How can we boost customer confidence?
       </p>
     </div>
@@ -17,7 +18,8 @@ const LastSection = () => (
       <img src={card1} alt="" />
       <h3>Why wavering customer confidence could stall</h3>
       <p>
-        The Energy Consumer Confidence Index reveals that the impact of the energy transition is hitting home.
+        The Energy Consumer Confidence Index reveals that
+        the impact of the energy transition is hitting home.
         How can we boost customer confidence?
       </p>
     </div>
@@ -25,7 +27,8 @@ const LastSection = () => (
       <img src={card1} alt="" />
       <h3>Why wavering customer confidence could stall</h3>
       <p>
-        The Energy Consumer Confidence Index reveals that the impact of the energy transition is hitting home.
+        The Energy Consumer Confidence Index reveals that
+        the impact of the energy transition is hitting home.
         How can we boost customer confidence?
       </p>
     </div>

@@ -70,10 +70,15 @@ const Home = () => (
     </div>
 
     <div className="Home-ContacInfo">
-      <p className="para">
+      <h3 className="para">
         Category
         <img className="arrowDown" src={ArrowDown} alt="" />
-      </p>
+      </h3>
+      <ul>
+        <li><a href="./">Overview</a></li>
+        <li><a href="./">Our People</a></li>
+        <li><a href="./">Our Values</a></li>
+      </ul>
       <img src={Contact} alt="Contact Us Button" />
       <img src={BookCall} alt="Book a call Button" />
     </div>

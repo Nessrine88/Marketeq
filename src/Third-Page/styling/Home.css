@@ -17,7 +17,7 @@
 }
 
 .Home-div1-part2 {
-  padding: 350px 0 0 40px;
+  padding: 300px 0 0 40px;
   color: #fff;
   font-family: 'Noto Sans', sans-serif;
   font-size: 20px;
@@ -35,6 +35,7 @@ h1 {
   font-weight: 400;
   line-height: normal;
   text-transform: capitalize;
+  padding-bottom: 10px;
 }
 
 .whoPara {
@@ -50,20 +51,36 @@ h1 {
 
 .Home-ContacInfo {
   display: flex;
-  padding: 10px;
+  justify-content: space-between; /* Create spacing between elements */
   align-items: center;
-  align-self: stretch;
-  color: #3d4160;
-}
-
-.arrowDown {
-  width: fit-content;
-  height: 16px;
+  padding: 10px; /* Add padding for spacing */
 }
 
 .para {
+  display: none;
+}
+
+.Home-ContacInfo img {
+  width: 150px;
+}
+
+.Home-ContacInfo ul {
   display: flex;
-  align-items: center;
+}
+
+.Home-ContacInfo li {
+  margin-left: 20px;
+  color: var(--text-dark, #3d4160);
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.Home-ContacInfo a {
+  text-decoration: none;
 }
 
 .person1 span,
@@ -159,9 +176,9 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   color: #fff;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  padding: 1.5rem 1rem;
+  box-shadow: 0 5px 4px #343e5f;
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -299,25 +316,63 @@ h2 {
 
 @media (max-width: 768px) {
   .NavbarContainer {
+    background-color: #0e204c;
+    color: #fff;
+    padding: 1.5rem 1rem;
+    box-shadow: 0 5px 4px #343e5f;
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
+  }
+
+  .LogoContainer h3 {
+    color: #fff;
   }
 
   .SearchAndHamburger {
-    margin-left: 140%;
+    display: flex;
+    position: absolute;
+    right: 30px;
+  }
+
+  .hamburger-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .LogoContainer {
+    display: flex;
+    align-items: center;
   }
 
   .navbar {
     display: none;
   }
+
+  .para {
+    display: flex;
+    color: #3d4160;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 20px;
+  }
+
+  .Home-ContacInfo ul {
+    display: none;
+  }
+
+  .arrowDown {
+    font-size: 10px;
+    height: 20px;
+    position: absolute;
+    left: 35px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .SearchAndHamburger {
-    margin-left: 230%;
-  }
-
   .navbar {
     display: none;
   }

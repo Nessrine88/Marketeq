@@ -14,7 +14,7 @@ const MiddleSection = () => (
     <div className="flexContainer">
       <div className="value1">
         <img src={tableBook} alt="tabler Book" />
-        <h3>Start with a point of view</h3>
+        <h4>Start with a point of view</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quisquam,
           provident autem inventore molestias a harum voluptatum. Excepturi vel magnam
@@ -23,7 +23,7 @@ const MiddleSection = () => (
       </div>
       <div className="value2">
         <img src={tableBook} alt="tabler Book" />
-        <h3>Make a Difference</h3>
+        <h4>Make a Difference</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ab
           in ipsam velit, harum officia adipisci at praesentium ratione eius
@@ -32,7 +32,7 @@ const MiddleSection = () => (
       </div>
       <div className="value3">
         <img src={tableBook} alt="tabler Book" />
-        <h3>Act with Integrity</h3>
+        <h4>Act with Integrity</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, assumenda,
           ullam eligendi perspiciatis modi impedit earum repudiandae incidunt,
@@ -42,7 +42,7 @@ const MiddleSection = () => (
       </div>
       <div className="value4">
         <img src={tableBook} alt="tabler Book" />
-        <h3>Work as one</h3>
+        <h4>Work as one</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Reprehenderit fugiat, cupiditate facere quod aspernatur impedit molestias
@@ -53,7 +53,7 @@ const MiddleSection = () => (
       </div>
       <div className="value5">
         <img src={tableBook} alt="tabler Book" />
-        <h3>Always Strive, never Settle</h3>
+        <h4>Always Strive, never Settle</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, deleniti aliquam
           reiciendis odit iusto tempore quis quaerat porro optio impedit officiis nulla tempora
@@ -63,7 +63,7 @@ const MiddleSection = () => (
       </div>
       <div className="value6">
         <img src={tableBook} alt="tabler Book" />
-        <h3>Do the right thing</h3>
+        <h4>Do the right thing</h4>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           Pariatur consectetur beatae adipisci, tempora in dicta magnam ab ullam asperiores commodi.

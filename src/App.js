@@ -1,4 +1,3 @@
-import './App.css';
 import Version1 from './Third-Page/Version1-Page3';
 
 function App() {

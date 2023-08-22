@@ -12,7 +12,7 @@ import './styling/Section3.css';
 const Section3 = () => (
   <section className="section3">
     <div className="diversity">
-      <h2>Diversity & Equity</h2>
+      <h2>Diversity Equity & Inclusion</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Enim, similique! Sunt esse delectus quis eligendi minus

@@ -7,142 +7,149 @@
 }
 
 .part1 h2 {
-  color:  #3D4160;
-  font-family: 'Noto Sans',sans-serif;
+  color: #3d4160;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  }
+}
 
+.knowUsBetter {
+  display: flex;
+  width: 100%;
+}
+
+.part1,
+.part2,
+.part3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.part1 img,
+.part2 img,
+.part3 img {
+  width: 100%;
+  height: 50%;
+}
+
+h4,
+p {
+  margin: 10px 0;
+}
+
+.section4 h2 {
+  color: #3d4160;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 150px;
+}
+
+.contactBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  flex: 1; /* Allow the text to take the available width */
+  padding: 20px; /* Add spacing around text */
+}
+
+.text h2 {
+  margin-top: 0;
+}
+
+.img {
+  flex: 1;
+  max-width: 100%;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.learnMore h3 {
+  color: #3d4160;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.learnMore p {
+  color: #3d4160;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+.learnMore img {
+  width: 30%;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.transformation {
+  display: flex; /* Display the content as flex */
+  align-items: center; /* Center-align content vertically */
+  justify-content: center; /* Center-align content horizontally */
+  text-align: center; /* Center-align text within its container */
+  margin-top: 200px;
+}
+
+.imgDivi {
+  flex: 1; /* Allow the image to take available width */
+  padding: 20px; /* Add spacing around image */
+}
+
+.imgDivi img {
+  width: 100%;
+  height: 100%;
+}
+
+.textDivi {
+  flex: 1; /* Allow the text to take available width */
+  padding: 20px; /* Add spacing around text */
+}
+
+.textDivi h2,
+.textDivi p {
+  margin: 10px 0; /* Add spacing between text elements */
+}
+
+.textDivi h2 {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
   .knowUsBetter {
     display: flex;
-    width: 100%;
-  }
-  
-  .part1,
-  .part2,
-  .part3 {
-    flex: 1;
-    display: flex;
     flex-direction: column;
-    padding: 10px;
-  }
-  
-  .part1 img,
-  .part2 img,
-  .part3 img {
-    width: 100%;
-    height: 50%;
- 
-  }
-  
-  h4, p {
-    margin: 10px 0;
-  }
-  
-  .section4 h2 {
-    color:  #3D4160;
-    font-family: 'Noto Sans',sans-serif;
-font-size: 52px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-top: 150px;
-
-
   }
 
   .contactBanner {
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .text {
-    flex: 1; /* Allow the text to take the available width */
-    padding: 20px; /* Add spacing around text */
-  }
-  .text h2 {
-    margin-top: 0;
-  }
-  .img {
-    flex: 1; 
-    max-width: 100%; 
-  }
-  
-  .img img {
-    width: 100%; 
-    height: auto; 
-    max-height: 100%; 
-  }
-  
-  .learnMore h3{
-    color: #3D4160;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-top: 100px;
-    margin-left: 40px;
-  }
-  .learnMore p {
-    color: #3D4160;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    margin-left: 20px;
-  }
-  .learnMore img {
-    width: 30%;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-  }
-  .transformation {
-    display: flex; /* Display the content as flex */
-    align-items: center; /* Center-align content vertically */
-    justify-content: center; /* Center-align content horizontally */
-    text-align: center; /* Center-align text within its container */
-    margin-top: 200px;
-  }
-  
-  .imgDivi {
-    flex: 1; /* Allow the image to take available width */
-    padding: 20px; /* Add spacing around image */
-  }
-  .imgDivi img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .textDivi {
-    flex: 1; /* Allow the text to take available width */
-    padding: 20px; /* Add spacing around text */
-  }
-  
-  .textDivi h2, .textDivi p {
-    margin: 10px 0; /* Add spacing between text elements */
-   
-  }
-  .textDivi h2 {
-    width: 50%;
+    flex-direction: column;
   }
 
-  @media (max-width: 768px)  {
-    .knowUsBetter {
-      display: flex;
-      flex-direction: column;
-    }
-    .contactBanner {
-      display: flex;
-      flex-direction: column;
-    }
-    .transformation {
-      display: flex;
-      flex-direction: column;
-    }
+  .transformation {
+    display: flex;
+    flex-direction: column;
   }
+}

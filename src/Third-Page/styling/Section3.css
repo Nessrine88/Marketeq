@@ -61,10 +61,7 @@ h4 {
 }
 
 .imageContainer img {
-  flex: 1;
-  width: calc(33.33% - 10px);
-  object-fit: cover;
-  margin: 0 5px;
+
 }
 
 .weDo img {
@@ -75,6 +72,12 @@ h4 {
   width: 400px;
   margin-right: 50px;
   padding-left: auto;
+  color: var(--text-dark, #3d4160);
+  font-family: Noto Sans;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .diversity p {
@@ -83,7 +86,7 @@ h4 {
 }
 
 .weDo {
-  color:  #3D4160;
+  color: #3d4160;
   font-family: 'Noto Sans', sans-serif;
   font-size: 36px;
   font-style: normal;
@@ -99,15 +102,15 @@ h4 {
 }
 
 .largeImage {
-  width:fit-content; 
+  width: fit-content;
   height: fit-content;
   flex-grow: 1;
 }
 
 .stackedImages {
-  width: 50%; 
+  width: 50%;
   display: flex;
-  flex:1.78;
+  flex: 1.78;
   flex-direction: column;
   align-items: flex-start; /* Align images at the left */
 }
@@ -117,24 +120,59 @@ h4 {
   height: auto; /* Maintain aspect ratio */
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 768px) {
   .diversity {
     display: flex;
     flex-direction: column;
   }
+
   .diversityImgs {
     display: flex;
     flex-direction: column;
   }
+
+  .diversityImgs h4 {
+    font-size: 14px;
+  }
+
+  .diversityImgs p {
+    font-size: 12px;
+  }
+
   .imageContainer {
     display: flex;
     flex-direction: column;
-height: 80%;
-align-items: center;
-width: 100vh;
+    height: 80%;
+    align-items: center;
+    width: 100vh;
   }
+
   .imageGroup {
     display: flex;
     flex-direction: column;
+  }
+
+  .diversity p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .diversityImgs p {
+    width: 100%;
+  }
+
+  .diversity h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .imageContainer img {
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 }

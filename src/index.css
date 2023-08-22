@@ -4,9 +4,19 @@
   box-sizing: border-box;
   list-style: none;
 }
+
 @media (max-width: 768px) {
-  img {
-    display: flex;
-    flex-direction: column;
+  section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow-x: hidden;
+    align-items: center;
+    padding: 10px;
+  }
+
+  p {
+    font-size: 14px;
   }
 }

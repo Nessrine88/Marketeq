@@ -412,19 +412,58 @@ h2 {
   }
 
   .leftPart1 img {
-    flex: 1;
+    width: 100%;
   }
+
   .personImgs {
     display: flex;
     flex-direction: column;
   }
 
-  .personImgs img{
-    width: 100vh;
-   
+  .personImgs img {
+    width: 100vw;
     margin: 20px;
   }
- 
+
+  #PerImg2 {
+    max-width: 140%;
+  }
+
+  .leftPart1 p {
+    width: 95%;
+  }
+
+  .rightPart1 p {
+    width: 95%;
+  }
+
+  .rightPart1 img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Home-div1-part2 p {
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .Our-Story h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .Our-Story p {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

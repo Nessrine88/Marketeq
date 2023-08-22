@@ -3,8 +3,7 @@ import BookCall from '../assets/BookCall.svg';
 import Contact from '../assets/Contact.svg';
 import OurStoryImg from '../assets/OurStoryImg.PNG';
 import OurStoryImg2 from '../assets/OurStoryImg2.PNG';
-
-import Person1 from '../assets/Person1.jpg';
+import Person1 from '../assets/person1.jpg';
 import Person2 from '../assets/Person2.jpg';
 import Person3 from '../assets/Person3.jpg';
 import ArrowDown from '../assets/ArrowDown.svg';

@@ -76,4 +76,21 @@ p {
     display: flex;
     flex-direction: column;
   }
+
+  .flexContainer p {
+    width: 100%;
+    font-size: 15px;
+    color: #3d4160;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23.609px;
+  }
+
+  .flexContainer img {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 50px;
+  }
 }

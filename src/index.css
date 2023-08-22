@@ -4,3 +4,9 @@
   box-sizing: border-box;
   list-style: none;
 }
+@media (max-width: 768px) {
+  img {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -20,7 +20,7 @@
 
 .diversity p {
   width: 70%;
-  margin-left: 40px;
+  padding: 0;
 }
 
 h4 {
@@ -41,8 +41,72 @@ h4 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-left: 20px;
+}
+
+.authors p {
+  color: #3d4160;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 20px;
+  height: 70vh;
+}
+
+.imageContainer img {
+  flex: 1;
+  width: calc(33.33% - 10px);
+  object-fit: cover;
+  margin: 0 5px;
 }
 
 .weDo img {
   width: 20%;
+}
+
+.diversity h2 {
+  width: 400px;
+  margin-right: 50px;
+  padding-left: auto;
+}
+
+.diversity p {
+  width: 70%;
+  margin-right: 30px;
+}
+
+.weDo {
+  text-align: center;
+}
+
+.imageGroup {
+  display: flex;
+  align-items: flex-start; /* Align images at the top */
+  justify-content: space-between; /* Add space between images */
+  margin: 20px auto; /* Add spacing */
+}
+
+.largeImage {
+  width: 50%; /* Occupy 50% of the screen width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.stackedImages {
+  width: 50%; /* Occupy 50% of the screen width */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align images at the left */
+}
+
+.stackedImages img {
+  width: 100%; /* Occupy full width of the container */
+  height: auto; /* Maintain aspect ratio */
 }

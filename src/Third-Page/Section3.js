@@ -57,9 +57,11 @@ const Section3 = () => (
         aperiam suscipit magni voluptatum nam.
         Accusamus quos beatae est consectetur quod. Molestias, distinctio.
       </p>
-      <img src={Section3Img4} alt="diversity" />
-      <img src={Section3Img5} alt="diversity" />
-      <img src={Section3Img6} alt="diversity" />
+      <div className="imageContainer">
+        <img id="duckImg" src={Section3Img4} alt="diversity" />
+        <img src={Section3Img5} alt="diversity" />
+        <img src={Section3Img6} alt="diversity" />
+      </div>
     </div>
     <div className="weDo">
       <h3>What we do</h3>
@@ -68,9 +70,13 @@ const Section3 = () => (
         In lacus dui, pharetra et turpis sed, blandit mattis velit.
         Fusce hendrerit purus ac purus convallis, sed efficitur quam congue.
       </p>
-      <img src={Section3Img7} alt="diversity" />
-      <img src={Section3Img8} alt="diversity" />
-      <img src={Section3Img9} alt="diversity" />
+      <div className="imageGroup">
+        <img src={Section3Img7} alt="diversity" className="largeImage" />
+        <div className="stackedImages">
+          <img src={Section3Img8} alt="diversity" />
+          <img src={Section3Img9} alt="diversity" />
+        </div>
+      </div>
     </div>
   </section>
 );

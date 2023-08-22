@@ -31,6 +31,8 @@
   font-weight: 800;
   line-height: normal;
   text-transform: capitalize;
+  margin-left: 50px;
+  margin-top: 100px;
 }
 
 .ValuesPara {
@@ -53,6 +55,8 @@ h4 {
   font-weight: 600;
   line-height: normal;
   margin-bottom: 10px;
+  padding-left: 20px;
+  width: 80%;
 }
 
 p {
@@ -63,4 +67,6 @@ p {
   line-height: 31px;
   width: 90%;
   text-align: justify;
+  padding-left: 20px;
+  width: 80%;
 }

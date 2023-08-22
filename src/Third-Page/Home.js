@@ -4,7 +4,6 @@ import BookCall from '../assets/BookCall.svg';
 import Contact from '../assets/Contact.svg';
 import OurStoryImg from '../assets/OurStoryImg.PNG';
 import OurStoryImg2 from '../assets/OurStoryImg2.PNG';
-import Arrow from '../assets/Arrow2.png';
 import globe from '../assets/globe.png';
 import Person1 from '../assets/Person1.jpg';
 import Person2 from '../assets/Person2.jpg';
@@ -110,13 +109,14 @@ const Home = () => (
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Commodi quod aliquam magni alias aut!
             Voluptas,
+            incidunt id doloribus consectetur earum repellat? Iure,
+            rem quis minima laborum sit omnis ea eius?
+            incidunt id doloribus consectetur earum repellat? Iure,
+            rem quis minima laborum sit omnis ea eius?
           </p>
         </div>
       </div>
-      <button type="button" className="readButton">
-        Read More
-        <img src={Arrow} alt="Read More Arrow" />
-      </button>
+
     </div>
     <div className="Our-People">
       <h3>Our People</h3>
@@ -127,14 +127,13 @@ const Home = () => (
       </p>
 
       <div className="personImgs">
-
-        <img id="PerImg1" src={Person1} alt="person" />
         <div className="person2">
-          <img id="PerImg2" src={Person2} alt="person" />
+          <img id="PerImg1" src={Person2} alt="person" />
         </div>
 
+        <img id="PerImg2" src={Person1} alt="person" />
         <div className="person3">
-          <img id="PerImg" src={Person3} alt="person" />
+          <img id="PerImg3" src={Person3} alt="person" />
         </div>
 
       </div>

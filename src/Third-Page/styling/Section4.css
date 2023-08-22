@@ -132,4 +132,17 @@ margin-top: 150px;
     width: 50%;
   }
 
-  
+  @media (max-width: 768px)  {
+    .knowUsBetter {
+      display: flex;
+      flex-direction: column;
+    }
+    .contactBanner {
+      display: flex;
+      flex-direction: column;
+    }
+    .transformation {
+      display: flex;
+      flex-direction: column;
+    }
+  }

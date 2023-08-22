@@ -70,3 +70,10 @@ p {
   padding-left: 20px;
   width: 80%;
 }
+
+@media (max-width: 768px) {
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

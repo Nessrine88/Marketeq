@@ -414,6 +414,17 @@ h2 {
   .leftPart1 img {
     flex: 1;
   }
+  .personImgs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .personImgs img{
+    width: 100vh;
+   
+    margin: 20px;
+  }
+ 
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

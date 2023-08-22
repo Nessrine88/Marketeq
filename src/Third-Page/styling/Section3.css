@@ -116,3 +116,25 @@ h4 {
   width: 100%; /* Occupy full width of the container */
   height: auto; /* Maintain aspect ratio */
 }
+
+@media (max-width: 768px)  {
+  .diversity {
+    display: flex;
+    flex-direction: column;
+  }
+  .diversityImgs {
+    display: flex;
+    flex-direction: column;
+  }
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+height: 80%;
+align-items: center;
+width: 100vh;
+  }
+  .imageGroup {
+    display: flex;
+    flex-direction: column;
+  }
+}

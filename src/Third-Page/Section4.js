@@ -65,18 +65,22 @@ const Section4 = () => (
         accusamus sunt rem voluptates! Illum, cumque numquam.
       </p>
       <img src={Section4Img5} alt="diversity" />
-      <img src={Section4Img5} alt="diversity" />
       <img src={Section4Img7} alt="diversity" />
+      <img src={Section4Img5} alt="diversity" />
     </div>
     <div className="transformation">
-      <img src={Section4Img8} alt="diversity" />
-      <h2>transformation starts here</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Eos officiis laboriosam consequatur quo saepe quam eius harum commodi sunt,
-        pariatur in minima quisquam maxime autem consequuntur ipsa minus dicta quos.
-        <span>connect with us</span>
-      </p>
+      <div className="imgDivi">
+        <img src={Section4Img8} alt="diversity" />
+      </div>
+      <div className="textDivi">
+        <h2>Transformation starts here</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Eos officiis laboriosam consequatur quo saepe quam eius harum commodi sunt,
+          pariatur in minima quisquam maxime autem consequuntur ipsa minus dicta quos.
+          <span>connect with us</span>
+        </p>
+      </div>
     </div>
 
   </section>

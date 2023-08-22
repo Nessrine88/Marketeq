@@ -84,24 +84,31 @@ h4 {
 }
 
 .weDo {
-  text-align: center;
+  color:  #3D4160;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 40px;
+  margin-top: 150px;
 }
 
 .imageGroup {
   display: flex;
-  align-items: flex-start; /* Align images at the top */
-  justify-content: space-between; /* Add space between images */
-  margin: 20px auto; /* Add spacing */
+  margin: 20px auto;
 }
 
 .largeImage {
-  width: 50%; /* Occupy 50% of the screen width */
-  height: auto; /* Maintain aspect ratio */
+  width:fit-content; 
+  height: fit-content;
+  flex-grow: 1;
 }
 
 .stackedImages {
-  width: 50%; /* Occupy 50% of the screen width */
+  width: 50%; 
   display: flex;
+  flex:1.78;
   flex-direction: column;
   align-items: flex-start; /* Align images at the left */
 }

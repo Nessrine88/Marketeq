@@ -9,6 +9,7 @@ import './styling/Section4.css';
 
 const Section4 = () => (
   <section className="section4">
+    <h2>Get to know us better</h2>
     <div className="knowUsBetter">
       <div className="part1">
         <img src={Section4Img1} alt="diversity" />
@@ -28,25 +29,29 @@ const Section4 = () => (
         </p>
       </div>
 
-      <div className="part3" />
-      <img src={Section4Img3} alt="diversity" />
+      <div className="part3">
+        <img src={Section4Img3} alt="diversity" />
 
-      <h4>Why automotive OEMs need to adapt</h4>
-      <p>
-        As technology continues to expand what’s possible,
-        the original automotive franchise model has remained largely unchanged.
-      </p>
+        <h4>Why automotive OEMs need to adapt</h4>
+        <p>
+          As technology continues to expand what’s possible,
+          the original automotive franchise model has remained largely unchanged.
+        </p>
+      </div>
     </div>
     <div className="contactBanner">
-      <h2>Find the right career opportunity</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Omnis mollitia et totam ipsum odio, commodi ex quia vitae
-        amet ab facere ullam nam fugit accusantium explicabo asperiores
-        consequatur assumenda deserunt.
-      </p>
-      <img src={Section4Img4} alt="diversity" />
-
+      <div className="text">
+        <h2>Find the right career opportunity</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Omnis mollitia et totam ipsum odio, commodi ex quia vitae
+          amet ab facere ullam nam fugit accusantium explicabo asperiores
+          consequatur assumenda deserunt.
+        </p>
+      </div>
+      <div className="img">
+        <img src={Section4Img4} alt="diversity" />
+      </div>
     </div>
 
     <div className="learnMore">
@@ -72,8 +77,8 @@ const Section4 = () => (
         pariatur in minima quisquam maxime autem consequuntur ipsa minus dicta quos.
         <span>connect with us</span>
       </p>
-
     </div>
+
   </section>
 );
 

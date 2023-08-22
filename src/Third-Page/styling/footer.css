@@ -1,0 +1,27 @@
+footer {
+    background-color: #0e204c;
+    color: #fff;
+    margin-top: 100px;
+    height: 50vh;
+    padding-bottom: 100px;
+}
+footer p {
+    color: #FFF;
+font-family: Noto Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+footer h4 {
+    color: #FFF;
+font-family: Noto Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 200px;
+}
+.socialMedia img {
+    width: 50px;
+}

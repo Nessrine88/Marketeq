@@ -1,11 +1,24 @@
 import Navbar from './Navbar';
+import NavbarDesktop from './NavbarDesktop';
+import './styling/footer.css';
+import facebook from '../assets/facebook.svg';
+import twiter from '../assets/twitter.svg';
+import instagram from '../assets/instagram.svg';
+import linkedin from '../assets/linkedin.jpg';
 
 const Footer = () => (
   <footer>
     <div>
       <Navbar />
+      <NavbarDesktop />
     </div>
-    <div className="socialMedia" />
+    <div className="socialMedia">
+      <img src={facebook} alt="" srcSet="facebook" />
+      <img src={twiter} alt="" srcSet="twiter" />
+      <img src={instagram} alt="" srcSet="instagram" />
+      <img src={linkedin} alt="" srcSet="linkedin" />
+
+    </div>
     <div className="list">
       <ul>
         <li />

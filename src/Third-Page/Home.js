@@ -1,59 +1,21 @@
 import Navbar from './Navbar';
-import logo from '../assets/logo.svg';
 import BookCall from '../assets/BookCall.svg';
 import Contact from '../assets/Contact.svg';
 import OurStoryImg from '../assets/OurStoryImg.PNG';
 import OurStoryImg2 from '../assets/OurStoryImg2.PNG';
-import globe from '../assets/globe.png';
+
 import Person1 from '../assets/Person1.jpg';
 import Person2 from '../assets/Person2.jpg';
 import Person3 from '../assets/Person3.jpg';
 import ArrowDown from '../assets/ArrowDown.svg';
 import './styling/Home.css';
-import search from '../assets/search.svg';
-import ProfileIcon from '../assets/ProfileIcon.png';
-import ArrowDownWhite from '../assets/ArrowDownWhite.svg';
+import NavbarDesktop from './NavbarDesktop';
 
 const Home = () => (
   <section className="Home-section">
     <header>
       <Navbar />
-      <nav className="navbar">
-        <div className="navContainer">
-          <div className="leftNav">
-            <div className="navbar-logo">
-              <img src={logo} alt="Logo" />
-              <span>Marketeq</span>
-            </div>
-
-            <ul className="navbar-links">
-              <li><a href="./">Home</a></li>
-              <li><a href="./">About</a></li>
-              <li><a href="./">Services</a></li>
-              <li><a href="./">Contact</a></li>
-            </ul>
-          </div>
-          <div className="rightNav">
-            <ul>
-              <li>
-                {' '}
-                <img src={search} alt="search icon" />
-                Search
-                {' '}
-              </li>
-              <li>
-                <img src={ProfileIcon} alt="profile" />
-                Login
-              </li>
-              <li>
-                <img src={globe} alt="globe" />
-                Global &nbsp;/ &nbsp;English
-                <img src={ArrowDownWhite} alt="arrow down" />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <NavbarDesktop />
     </header>
     <div className="Home-div1">
       <div className="Home-div1-part1">

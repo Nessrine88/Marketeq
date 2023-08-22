@@ -93,10 +93,6 @@ const Home = () => (
             Commodi quod aliquam magni alias aut! Voluptas,
             incidunt id doloribus consectetur earum repellat? Iure,
             rem quis minima laborum sit omnis ea eius?
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Commodi quod aliquam magni alias aut! Voluptas,
-            incidunt id doloribus consectetur earum repellat? Iure,
-            rem quis minima laborum sit omnis ea eius?
           </p>
         </div>
         <div className="rightPart1">
@@ -114,13 +110,6 @@ const Home = () => (
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Commodi quod aliquam magni alias aut!
             Voluptas,
-            incidunt id doloribus consectetur earum repellat? Iure,
-            rem quis minima laborum sit omnis ea eius?
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Commodi quod aliquam magni alias aut!
-            Voluptas,
-            incidunt id doloribus consectetur earum repellat? Iure,
-            rem quis minima laborum sit omnis ea eius?
           </p>
         </div>
       </div>

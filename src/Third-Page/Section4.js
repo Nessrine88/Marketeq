@@ -5,6 +5,7 @@ import Section4Img4 from '../assets/Section4Img4.jpg';
 import Section4Img5 from '../assets/Section4Img5.jpg';
 import Section4Img7 from '../assets/Section4Img7.jpg';
 import Section4Img8 from '../assets/Section4Img8.jpg';
+import './styling/Section4.css';
 
 const Section4 = () => (
   <section className="section4">

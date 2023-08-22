@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
 }
 
 .diversityImgs {
@@ -10,12 +13,14 @@
 }
 
 .diversityImgs img {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  padding: 20px;
+  height: 50%;
 }
 
-.diversityImgs p {
-  width: 80%;
+.diversity p {
+  width: 70%;
+  margin-left: 40px;
 }
 
 h4 {
@@ -24,4 +29,20 @@ h4 {
 
 .authors {
   margin-top: 100px;
+  padding: 20px;
+}
+
+.authors h3 {
+  color: #3d4160;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.weDo img {
+  width: 20%;
 }

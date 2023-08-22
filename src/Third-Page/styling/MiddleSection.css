@@ -42,7 +42,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: 50px;
-  margin-left: 40px;
   margin-top: 56px;
   margin-bottom: 56px;
 }
@@ -68,7 +67,6 @@ p {
   width: 90%;
   text-align: justify;
   padding-left: 20px;
-  width: 80%;
 }
 
 @media (max-width: 768px) {
@@ -79,7 +77,6 @@ p {
 
   .flexContainer p {
     width: 100%;
-    font-size: 15px;
     color: #3d4160;
     font-family: 'Noto Sans', sans-serif;
     font-size: 15px;

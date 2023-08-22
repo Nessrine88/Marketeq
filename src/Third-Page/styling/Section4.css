@@ -152,4 +152,52 @@ p {
     display: flex;
     flex-direction: column;
   }
+  .section4 h2 {
+    color:  #3D4160;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.2%;
+  }
+  .part1 img {
+    width: 100%;
+  }
+  .learnMore h3 {
+    font-size: 26px;
+  }
+  .learnMore p {
+    font-size: 14px;
+  }
+  .learnMore {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .learnMore img {
+    width: 100%;
+  }
+  .knowUsBetter h4 {
+    font-size: 14px;
+
+  }
+  .knowUsBetter p {
+    font-size: 12px;
+  }
+  .contactBanner h2 {
+    font-size: 26px;
+  }
+  .contactBanner p {
+    font-size: 14px;
+  }
+  .textDivi h2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .textDivi p {
+    font-size: 14px;
+    margin-left: 0;
+   padding-left: 0;
+  }
 }

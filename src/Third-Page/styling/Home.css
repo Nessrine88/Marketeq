@@ -87,7 +87,7 @@ h1 {
 h2 {
   position: relative;
   margin: 30px;
-  color: text-dark, #3d4160;
+  color: #3d4160;
   font-family: 'Noto Sans', sans-serif;
   font-size: 52px;
   font-style: normal;
@@ -172,12 +172,13 @@ h2 {
 .Our-People p {
   color: #3d4160;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 14px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   width: 90%;
   margin-bottom: 30px;
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 .NavbarContainer {
@@ -295,11 +296,6 @@ h2 {
 .Our-People img {
   width: 100%;
   margin-right: 20px;
-}
-
-.Our-People p {
-  font-size: 30px;
-  margin-top: 20px;
 }
 
 .person1 {

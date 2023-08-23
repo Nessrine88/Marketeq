@@ -15,32 +15,36 @@ const Home = () => (
     <header>
       <Navbar />
       <NavbarDesktop />
-    </header>
-    <div className="Home-div1">
-      <div className="Home-div1-part1">
-        <p className="whoPara">
-          <a href="./">Home</a>
-          &nbsp; &nbsp;/ &nbsp;Who We Are
-        </p>
-      </div>
-      <div className="Home-div1-part2">
-        <h1>Who We Are</h1>
-        <p>Discover more about our values, purpose and what makes us different</p>
-      </div>
-    </div>
 
+      <div className="Home-div1">
+        <div className="Home-div1-part1">
+          <p className="whoPara">
+            <a href="./">Home</a>
+          &nbsp; &nbsp;/ &nbsp;Who We Are
+          </p>
+        </div>
+        <div className="Home-div1-part2">
+          <h1>Who We Are</h1>
+          <p>Discover more about our values, purpose and what makes us different</p>
+        </div>
+      </div>
+    </header>
     <div className="Home-ContacInfo">
       <h3 className="para">
         Category
         <img className="arrowDown" src={ArrowDown} alt="" />
       </h3>
-      <ul>
-        <li><a href="./">Overview</a></li>
-        <li><a href="./">Our People</a></li>
-        <li><a href="./">Our Values</a></li>
-      </ul>
-      <img src={Contact} alt="Contact Us Button" />
-      <img src={BookCall} alt="Book a call Button" />
+      <div className="contactInfoLeftList">
+        <ul>
+          <li><a href="./">Overview</a></li>
+          <li><a href="./">Our People</a></li>
+          <li><a href="./">Our Values</a></li>
+        </ul>
+      </div>
+      <div className="contactInfoRightImgs">
+        <img src={Contact} alt="Contact Us Button" />
+        <img src={BookCall} alt="Book a call Button" />
+      </div>
     </div>
     <div className="Our-Story">
       <h2>Our Story</h2>

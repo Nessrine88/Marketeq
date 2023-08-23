@@ -1,7 +1,7 @@
 import search from '../assets/search.svg';
 import ProfileIcon from '../assets/ProfileIcon.png';
 import ArrowDownWhite from '../assets/ArrowDownWhite.svg';
-import globe from '../assets/globe.png';
+import globe from './images/globe.svg';
 import logo from '../assets/logo.svg';
 
 const NavbarDesktop = () => (

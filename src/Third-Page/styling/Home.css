@@ -1,23 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mukta&family=Noto+Sans+Display:ital,wght@1,400;1,500&display=swap');
 
+
 .Home-div1 {
-  background-color: #0e204c;
-  color: #fff;
+  color: #fff; 
   height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative; 
 }
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 18, 61, 0.75); 
+  z-index: -1;
+}
+
+header {
+  background-image: url(../images/homeBg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* Add relative positioning */
+  z-index: -2;
+}
+
 
 .Home-div1 a {
   color: #fff;
 }
 
 .Home-div1-part1 {
-  padding: 40px 20px 0 40px;
+  padding: 3.12rem 6.25rem ;
+  
 }
 
 .Home-div1-part2 {
-  padding: 300px 0 0 40px;
+  padding: 19.44rem 0 6.25rem 6.25rem ;
   color: #fff;
   font-family: 'Noto Sans', sans-serif;
   font-size: 20px;
@@ -53,7 +76,8 @@ h1 {
   display: flex;
   justify-content: space-between; /* Create spacing between elements */
   align-items: center;
-  padding: 10px; /* Add padding for spacing */
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
 }
 
 .para {
@@ -69,8 +93,8 @@ h1 {
 }
 
 .Home-ContacInfo li {
-  margin-left: 20px;
-  color: var(--text-dark, #3d4160);
+  margin-left: 1.25rem;
+  color: #3d4160;
   font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -186,14 +210,15 @@ h2 {
 }
 
 .navContainer {
-  background-color: #0e204c;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
   padding: 1.5rem 1rem;
-  box-shadow: 0 5px 4px #343e5f;
+  border-bottom: 2px solid #fff;
   font-family: 'Noto Sans', sans-serif;
+  padding: 1.25rem 3.12rem ;
 }
 
 .leftNav a {
@@ -233,7 +258,7 @@ h2 {
 
 .navbar-links li,
 .rightNav li {
-  margin-right: 20px;
+  margin-left: 0.62rem;
   color: #fff;
   display: flex;
   align-items: center;
@@ -244,10 +269,10 @@ h2 {
 }
 
 .rightNav img {
-  margin-left: 10px;
+  margin-left: 1.88rem;
   margin-right: 10px;
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
 }
 
 .part1Story {
@@ -442,10 +467,11 @@ h2 {
   .Home-div1-part2 p {
     color: #fff;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin-top: 1.62rem;
   }
 
   h1 {

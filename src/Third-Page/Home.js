@@ -1,7 +1,7 @@
 import Navbar from './Navbar';
 import BookCall from '../assets/BookCall.svg';
 import Contact from '../assets/Contact.svg';
-import OurStoryImg from '../assets/OurStoryImg.PNG';
+import OurStoryImg from './images/ourstoryImg.jpg';
 import OurStoryImg2 from '../assets/OurStoryImg2.PNG';
 import Person1 from '../assets/person1.jpg';
 import Person2 from '../assets/Person2.jpg';
@@ -48,36 +48,28 @@ const Home = () => (
     </div>
     <div className="Our-Story">
       <h2>Our Story</h2>
-      <div className="part1Story">
-
-        <div className="leftPart1">
+      <div className=" st1 Story">
+        <div className="textLeft">
           <h3>Lorem ipsum dolor sit amet</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Commodi quod aliquam magni alias aut! Voluptas,
-            incidunt id doloribus consectetur earum repellat? Iure,
-            rem quis minima laborum sit omnis ea eius?
           </p>
         </div>
-        <div className="rightPart1">
+        <div className="imgRight">
           <img src={OurStoryImg} alt="Our Story" />
         </div>
       </div>
 
-      <div className="part1Story">
-        <div className="leftPart1">
+      <div className="st2 Story">
+        <div className="imgLeft">
           <img src={OurStoryImg2} alt="Our Story 2" />
         </div>
-        <div className="rightPart1">
+        <div className="textRight">
           <h3>Lorem ipsum dolor sit amet</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Commodi quod aliquam magni alias aut!
             Voluptas,
-            incidunt id doloribus consectetur earum repellat? Iure,
-            rem quis minima laborum sit omnis ea eius?
-            incidunt id doloribus consectetur earum repellat? Iure,
-            rem quis minima laborum sit omnis ea eius?
           </p>
         </div>
       </div>

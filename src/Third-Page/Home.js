@@ -53,6 +53,21 @@ const Home = () => (
           <h3>Lorem ipsum dolor sit amet</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </p>
         </div>
         <div className="imgRight">
@@ -68,8 +83,21 @@ const Home = () => (
           <h3>Lorem ipsum dolor sit amet</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Commodi quod aliquam magni alias aut!
-            Voluptas,
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </p>
         </div>
       </div>

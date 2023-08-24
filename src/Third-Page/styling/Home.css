@@ -307,7 +307,7 @@ h1 {
 
 .Our-People img {
   width: 100%;
-  margin-right: 2.5rem;
+  margin-right: 20px;
 }
 
 .person1 {
@@ -417,7 +417,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 6.25rem;
   }
 
 
@@ -435,34 +434,94 @@ h1 {
     max-width: 140%;
   }
 
+  header{
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
 
+  }
+ 
 
   .Home-div1-part2 p {
     color: #fff;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 53px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin-top: 1.62rem;
+    margin: 1.62rem 0 0 0;
+  
   }
 
-  h1 {
+  .Home-div1-part2 h1 {
     font-size: 40px;
+   height: 100%;
+    padding: 6.25rem 0 0 0;
   }
-
+  .Home-div1-part2 {
+    padding: 19.44rem 0 1.25rem 1.55rem;
+  }
+  .Home-div1-part1 {
+    padding: 2.5rem;
+  }
+  .Home-ContacInfo {
+    padding: 0.62rem;
+  }
+  .Home-ContacInfo img {
+    margin-left: 0.62rem;
+  }
+  .Our-Story {
+    padding: 1.25rem;
+  }
   .Our-Story h2 {
-    font-size: 40px;
+    font-size: 32px;
     margin-bottom: 0;
+    line-height: 38.62px;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
   }
 
   .Our-Story p {
     font-size: 14px;
   }
+  .Our-Story img {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 0;
+  }
+  .imgRight img{
+    display: none;
+  }
+  .imgLeft {
+    margin-right: 0;
+    margin-top: 2.5rem;
+    padding:2.5rem 1.25rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.st2 img {
+  margin: 0;
+}
+.st1 img{
+  margin: 0;
+}
+.Our-People {
+  padding: 0;
+  padding: 2.5rem;
+}
+.Our-People h3 {
+  font-size: 26px;
+}
+.Our-People p {
+  font-size: 14px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .navbar {
     display: none;
   }
+
 }

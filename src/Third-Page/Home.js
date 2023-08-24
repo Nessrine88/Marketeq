@@ -8,6 +8,7 @@ import Person2 from './images/person2ourstory.jpg';
 import Person3 from './images/person3ourstory.jpg';
 import ArrowDown from '../assets/ArrowDown.svg';
 import './styling/Home.css';
+import './styling/Navbar.css';
 import NavbarDesktop from './NavbarDesktop';
 
 const Home = () => (

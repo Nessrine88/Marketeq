@@ -1,3 +1,4 @@
+@media (max-width: 768px) {
 .NavbarContainer {
   background-color: #0e204c;
   color: #fff;
@@ -24,4 +25,5 @@
 .hamburger-button {
   background-color: transparent;
   border: none;
+}
 }

@@ -18,10 +18,14 @@ const Section3 = () => (
         Enim, similique! Sunt esse delectus quis eligendi minus
         sit eaque sint voluptatum repellat animi quae, labore alias
         saepe quisquam excepturi quia tenetur.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Enim, similique! Sunt esse delectus quis eligendi minus
+        sit eaque sint voluptatum repellat animi quae, labore alias
+        saepe quisquam excepturi quia tenetur.
       </p>
     </div>
     <div className="diversityImgs">
-      <div className="part1">
+      <div>
         <img src={Section3Img1} alt="diversity" />
         <h4>Why wavering customer confidence could stall the energy transition</h4>
         <p>
@@ -29,7 +33,7 @@ const Section3 = () => (
           transition is hitting home. How can we boost customer confidence?
         </p>
       </div>
-      <div className="part2">
+      <div>
         <img src={Section3Img2} alt="diversity" />
 
         <h4>The PHE is ending: What it means for COVID-19</h4>
@@ -39,7 +43,7 @@ const Section3 = () => (
         </p>
       </div>
 
-      <div className="part3">
+      <div>
         <img src={Section3Img3} alt="diversity" />
 
         <h4>Why automotive OEMs need to adapt</h4>

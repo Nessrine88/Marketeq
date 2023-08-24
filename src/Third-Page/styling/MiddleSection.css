@@ -1,7 +1,7 @@
 .flexContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 3.12rem;
   
   padding: 6.25rem;
   padding-top: 0;
@@ -47,27 +47,23 @@
 width: 100%;
 }
 
-h4 {
+.flexContainer h4 {
   color: #3d4160;
   font-family: 'Noto Sans', sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-bottom: 10px;
-  padding-left: 20px;
-  width: 80%;
+  margin: 1.19rem 0;
 }
 
-p {
+.flexContainer p {
   font-family: 'Noto Sans', sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 300;
   line-height: 31px;
-  width: 90%;
   text-align: justify;
-  /* padding-left: 20px; */
 }
 
 @media (max-width: 768px) {

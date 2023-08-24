@@ -19,11 +19,14 @@
   display: flex;
   width: 100%;
 }
-
+.knowUsBetter img {
+  margin-bottom: 1.25rem;
+ 
+}
 .part1,
 .part2,
 .part3 {
-  flex: 1;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -36,10 +39,9 @@
   height: 50%;
 }
 
-/* h4,
-p {
-  margin: 10px 0;
-} */
+.container {
+  padding: 6.25rem;
+}
 
 .section4 h2 {
   color: #3d4160;
@@ -48,7 +50,7 @@ p {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-top: 150px;
+  margin-bottom: 3.12rem;
 }
 
 .contactBanner {

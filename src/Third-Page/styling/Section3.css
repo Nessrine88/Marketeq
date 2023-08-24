@@ -26,18 +26,17 @@ margin-bottom: 1.25rem;
 
 .authors {
   margin-top: 100px;
-  padding: 20px;
+  padding: 6.25rem;
 }
 
 .authors h3 {
   color: #3d4160;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   font-family: 'Noto Sans', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-left: 20px;
 }
 
 .authors p {
@@ -47,15 +46,10 @@ margin-bottom: 1.25rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 3.12rem;
 }
 
-.imageContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  margin-top: 20px;
-  height: 70vh;
-}
+
 
 .imageContainer img {
   flex: 1;
@@ -64,9 +58,7 @@ margin-bottom: 1.25rem;
   margin: 0 5px;
 }
 
-.weDo img {
-  width: 20%;
-}
+
 
 .diversity h2 {
   color: #3d4160;
@@ -83,14 +75,29 @@ margin-bottom: 1.25rem;
 }
 
 .weDo {
+ 
+  padding: 6.25rem;
+}
+.weDo h3 {
   color: #3d4160;
   font-family: 'Noto Sans', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-left: 40px;
-  margin-top: 150px;
+  margin-bottom: 1.25rem;
+}
+ .weDo p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: left;
+  margin-bottom: 3.13rem;
+  color: #3D4160;
+ }
+.weDo img {
+  width: 20%;
 }
 
 .imageGroup {

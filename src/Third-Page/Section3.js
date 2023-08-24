@@ -1,12 +1,12 @@
 import Section3Img1 from '../assets/Section3Img1.jpg';
 import Section3Img2 from '../assets/Section3Img2.jpg';
 import Section3Img3 from '../assets/Section3Img3.jpg';
-import Section3Img4 from '../assets/Section3Img4.jpg';
-import Section3Img5 from '../assets/Section3Img5.jpg';
-import Section3Img6 from '../assets/Section3Img6.jpg';
-import Section3Img7 from '../assets/Section3Img7.jpg';
-import Section3Img8 from '../assets/Section3Img8.jpg';
-import Section3Img9 from '../assets/Section3Img9.jpg';
+import Section3Img4 from './images/duckImg.png';
+import Section3Img5 from './images/womanImg.png';
+import Section3Img6 from './images/cameraMan.png';
+import Section3Img7 from './images/hands.png';
+import Section3Img8 from './images/eye.png';
+import Section3Img9 from './images/study.png';
 import './styling/Section3.css';
 
 const Section3 = () => (
